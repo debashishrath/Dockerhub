@@ -5,3 +5,4 @@ RUN wget https://wordpress.org/wordpress-4.9.9.tar.gz && tar xzvf wordpress-4.9.
 RUN chown -R www-data:www-data /var/www/html
 EXPOSE 80
 cmd [/bin/bash]
+
